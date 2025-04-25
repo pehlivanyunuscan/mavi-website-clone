@@ -1,0 +1,125 @@
+.mavi{
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
+.menu{
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: 250;
+    font-size: 14px;
+    margin: 25px;
+    margin-left: 0px;
+    display: flex;
+}
+.menu li{
+    margin-right: 40px;
+
+}
+.menu2{
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: 250;
+    font-size: 14px;
+    margin: 25px;
+    margin-left: 0px;
+    display: flex;
+}
+.menu2 li{
+    margin-right: 10px;
+}
+
+.menu li:hover{
+    text-decoration: underline;
+}
+.a{
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    color: rgba(0,0,0,.5);
+
+}
+.content{
+    background-color:rgb(252, 252, 252);
+    height: 30px;
+}
+.main, .main2{
+    position: relative;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+.main-image{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+
+}
+.overlay-text {
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 100;
+}
+.overlay-text2 {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+
+    font-weight: bold;
+}
+.overlay-text3 {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 100;
+}
+.overlay-text4 {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: bold;
+}
+.menu-searchbar{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.searchbar img {
+    width: 20px;
+}
+#sb1{
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 14px;
+    font-weight: 10px;
+}
+#sb1::placeholder{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+}

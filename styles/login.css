@@ -1,0 +1,57 @@
+.login-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+
+}
+.login-main a{
+    padding: 5px 30px;
+    font-size: 1.75rem;
+
+}
+#a1{
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+#a2{
+    color: rgba(0, 0, 0, 0.5);
+}
+.E-posta-password{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 25px;
+
+}
+#e-posta-password{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    width: 190%;
+    font-weight: bold;
+    padding: 12px;
+
+}
+input::placeholder {   
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+}
+#apassword{
+    font-size: 14px;
+    position: relative;
+    right: -170px;
+}
+#login{
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    font-size: 15px;
+    width: 200%;
+    border: none;
+    border-radius: 5px;
+}

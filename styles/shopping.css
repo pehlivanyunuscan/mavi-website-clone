@@ -1,0 +1,78 @@
+.shopping{
+    display: flex;
+    font-family: sans-serif;
+}
+.shopping-image{
+    margin-left: 15%;
+    margin-top: 3%;
+}
+.shopping-image img{
+    width: 70%;
+}
+.image-info{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+#pp{
+    color: rgba(0,0,0,.5);
+    font-size: 12px;
+}
+.image-info input[type="radio"]{
+    display: none;
+}
+.image-info label{
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+    border: 2px solid transparent;
+    transition: border 0.3s ease;
+    border-radius: 10px;
+}
+.image-info label img{
+    width: 20px;
+    height: 20px;
+}
+.dropdown-btn{
+    margin-top: 30px;
+}
+ .dropdown {
+            margin-bottom: 20px;
+}
+.add-to-card{
+    font-family: sans-serif;
+    margin-top: 30px;
+    font-size: .938rem;
+    font-weight: 500;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    width: 100%;
+    border-radius: 5px;
+    outline: 0;
+    border: none;
+}
+.add-to-card a {
+    color: #fff;
+}
+.link{
+    margin-top: 5%;
+    font-weight: 500;
+    text-decoration: underline;
+    padding-left: 30%;
+}
+.link a{
+    color: black;
+    font-family: sans-serif;
+}
+.check-find{
+    font-family: sans-serif;
+    margin-top: 5%;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #f2f2f2;
+    height: 40px;
+    border-radius: 8px;
+    outline: 0;
+    border: none;
+}
